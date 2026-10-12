@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#7654c8">
+  <meta name="description" content="Amino Cure - دليل يساعد طلاب وخريجي الصيدلة في السودان على الوصول إلى الصيدليات والاستفسار عن فرص التدريب.">
+
+  <title>Amino Cure | دليل التدريب الصيدلي في السودان</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- رأس الموقع -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+
+      <a href="#top" class="brand" aria-label="Amino Cure - الرئيسية">
+        <img
+          src="logo.png"
+          alt=""
+          class="brand-logo"
+          width="44"
+          height="44"
+        >
+
+        <span class="brand-text">
+          <strong>Amino Cure</strong>
+          <small>دليل التدريب الصيدلي</small>
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="فتح القائمة"
+        aria-expanded="false"
+        aria-controls="mainNav"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="القائمة الرئيسية">
+        <a href="#home" class="nav-link active">الرئيسية</a>
+        <a href="#directory" class="nav-link">دليل الصيدليات</a>
+        <a href="#how-it-works" class="nav-link">كيف يعمل؟</a>
+        <a href="#about" class="nav-link">عن المشروع</a>
+      </nav>
+
+      <button
+        class="theme-toggle"
+        id="themeToggle"
+        type="button"
+        aria-label="تفعيل الوضع الداكن"
+        title="تبديل المظهر"
+      >
+        🌙
+      </button>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- الواجهة الرئيسية -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+
+        <div class="hero-content">
+
+          <span class="eyebrow">
+            <span class="status-dot"></span>
+            دليل الصيدليات في السودان
+          </span>
+
+          <h1>
+            خطوتك الأولى نحو
+            <span class="highlight">التدريب الصيدلي</span>
+          </h1>
+
+          <p class="hero-description">
+            نساعد طلاب وخريجي الصيدلة في السودان على الوصول إلى
+            الصيدليات التي تستقبل استفسارات التدريب، والتواصل معها
+            مباشرةً لمعرفة التفاصيل.
+          </p>
+
+          <div class="hero-actions">
+
+            <a href="#directory" class="btn btn-primary">
+              استكشف دليل الصيدليات
+              <span aria-hidden="true">←</span>
+            </a>
+
+            <a href="#how-it-works" class="btn btn-secondary">
+              كيف يعمل الموقع؟
+            </a>
+
+          </div>
+
+          <div class="hero-note">
+            <span aria-hidden="true">ⓘ</span>
+
+            <p>
+              تواصل مع الصيدلية قبل الذهاب للتأكد من توفر التدريب
+              وشروط القبول.
+            </p>
+          </div>
+
+        </div>
+
+
+        <!-- الصورة الشخصية -->
+        <div class="hero-visual profile-visual">
+
+          <div class="profile-glow"></div>
+
+          <div class="profile-frame">
+            <img
+              src="profile.png"
+              alt="الصورة الشخصية لصاحب Amino Cure"
+              class="profile-image"
+              width="400"
+              height="400"
+              fetchpriority="high"
+            >
+          </div>
+
+          <div class="profile-floating profile-floating-top">
+            <span aria-hidden="true">💊</span>
+            <span>صيدلة</span>
+          </div>
+
+          <div class="profile-floating profile-floating-right">
+            <span aria-hidden="true">📚</span>
+            <span>تدريب</span>
+          </div>
+
+          <div class="profile-floating profile-floating-bottom">
+            <span aria-hidden="true">✦</span>
+            <span>توعية صحية</span>
+          </div>
+
+          <div class="profile-caption">
+            <strong>Amino Cure</strong>
+            <span>معلومة أبسط، حياة أفضل</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- دليل الصيدليات والبحث -->
+    <section class="directory section" id="directory">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">دليل الصيدليات</span>
+
+          <h2>ابحث عن صيدلية مناسبة</h2>
+
+          <p>
+            اختر الولاية والمنطقة، أو ابحث باسم الصيدلية للوصول
+            إلى بيانات التواصل المتاحة.
+          </p>
+        </div>
+
+
+        <!-- نموذج البحث -->
+        <div class="search-panel">
+
+          <div class="search-field search-field-main">
+            <label for="searchInput">اسم الصيدلية أو المنطقة</label>
+
+            <div class="input-wrapper">
+              <span aria-hidden="true">⌕</span>
+
+              <input
+                type="search"
+                id="searchInput"
+                placeholder="مثال: صيدلية، أم درمان..."
+                autocomplete="off"
+              >
+            </div>
+          </div>
+
+
+          <div class="search-field">
+            <label for="stateFilter">الولاية</label>
+
+            <select id="stateFilter">
+              <option value="">كل الولايات</option>
+              <option value="الخرطوم">الخرطوم</option>
+              <option value="الجزيرة">الجزيرة</option>
+              <option value="البحر الأحمر">البحر الأحمر</option>
+              <option value="كسلا">كسلا</option>
+              <option value="القضارف">القضارف</option>
+              <option value="سنار">سنار</option>
+              <option value="النيل الأبيض">النيل الأبيض</option>
+              <option value="النيل الأزرق">النيل الأزرق</option>
+              <option value="نهر النيل">نهر النيل</option>
+              <option value="الشمالية">الشمالية</option>
+              <option value="شمال كردفان">شمال كردفان</option>
+              <option value="جنوب كردفان">جنوب كردفان</option>
+              <option value="غرب كردفان">غرب كردفان</option>
+              <option value="شمال دارفور">شمال دارفور</option>
+              <option value="جنوب دارفور">جنوب دارفور</option>
+              <option value="شرق دارفور">شرق دارفور</option>
+              <option value="غرب دارفور">غرب دارفور</option>
+              <option value="وسط دارفور">وسط دارفور</option>
+            </select>
+          </div>
+
+
+          <div class="search-field">
+            <label for="areaFilter">المدينة أو المنطقة</label>
+
+            <input
+              type="text"
+              id="areaFilter"
+              placeholder="مثال: بحري"
+              autocomplete="off"
+            >
+          </div>
+
+
+          <button
+            class="btn btn-primary search-button"
+            id="searchButton"
+            type="button"
+          >
+            <span aria-hidden="true">⌕</span>
+            بحث
+          </button>
+
+        </div>
+
+
+        <!-- نتائج البحث -->
+        <div class="results-toolbar">
+
+          <div>
+            <h3>الصيدليات المدرجة</h3>
+
+            <p id="resultsCount" aria-live="polite">
+              جارٍ تحميل البيانات...
+            </p>
+          </div>
+
+          <button
+            class="reset-button"
+            id="resetSearch"
+            type="button"
+          >
+            إعادة ضبط البحث
+          </button>
+
+        </div>
+
+
+        <!-- بطاقات الصيدليات -->
+        <div class="pharmacies-grid" id="pharmaciesList">
+
+          <div class="loading-state">
+            <span class="loading-icon" aria-hidden="true">💊</span>
+            <p>جارٍ تجهيز دليل الصيدليات...</p>
+          </div>
+
+        </div>
+
+
+        <!-- حالة عدم وجود نتائج -->
+        <div class="empty-state" id="emptyState" hidden>
+
+          <div class="empty-icon" aria-hidden="true">🔎</div>
+
+          <h3>لم نعثر على صيدليات مطابقة</h3>
+
+          <p>
+            جرّب تغيير كلمة البحث أو اختيار ولاية أو منطقة أخرى.
+          </p>
+
+          <button
+            class="btn btn-secondary"
+            id="emptyReset"
+            type="button"
+          >
+            عرض جميع الصيدليات
+          </button>
+
+        </div>
+
+
+        <!-- تنبيه دليل الصيدليات -->
+        <div class="directory-notice">
+          <span class="notice-icon" aria-hidden="true">ⓘ</span>
+
+          <p>
+            إدراج الصيدلية في الدليل لا يعني ضمان وجود مكان تدريب شاغر.
+            يُرجى الاتصال بالصيدلية والتأكد من توفر التدريب وشروطه
+            قبل الذهاب.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- كيف يعمل الموقع؟ -->
+    <section class="how-it-works section" id="how-it-works">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="section-label">خطوات بسيطة</span>
+
+          <h2>كيف تستفيد من الدليل؟</h2>
+
+          <p>
+            ثلاث خطوات تساعدك على الاستفسار عن فرص التدريب
+            بطريقة مباشرة.
+          </p>
+        </div>
+
+
+        <div class="steps-grid">
+
+          <!-- الخطوة الأولى -->
+          <article class="step-card">
+
+            <div class="step-number">01</div>
+
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10.8" cy="10.8" r="6.8"></circle>
+                <path d="m16 16 4.5 4.5"></path>
+                <path d="M8 10.8h5.6"></path>
+                <path d="M10.8 8v5.6"></path>
+              </svg>
+            </div>
+
+            <h3>ابحث عن صيدلية</h3>
+
+            <p>
+              استخدم البحث للوصول إلى الصيدليات المدرجة حسب
+              الولاية والمنطقة.
+            </p>
+
+          </article>
+
+
+          <!-- الخطوة الثانية -->
+          <article class="step-card">
+
+            <div class="step-number">02</div>
+
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 3.8h3l1.5 4-2.1 1.6a15 15 0 0 0 5.2 5.2l1.6-2.1 4 1.5v3c0 1.1-.9 2-2 2A14.5 14.5 0 0 1 5 5.8c0-1.1.9-2 2-2Z"></path>
+                <path d="M14.5 4.5a5 5 0 0 1 5 5"></path>
+                <path d="M14.5 7.5a2 2 0 0 1 2 2"></path>
+              </svg>
+            </div>
+
+            <h3>تواصل مباشرةً</h3>
+
+            <p>
+              اتصل برقم التواصل المتاح واسأل عن التدريب
+              ومتطلبات التقديم.
+            </p>
+
+          </article>
+
+
+          <!-- الخطوة الثالثة -->
+          <article class="step-card">
+
+            <div class="step-number">03</div>
+
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"
+                   xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"></path>
+                <circle cx="12" cy="10" r="2.5"></circle>
+                <path d="m9 16 1.8 1.8 4-4"></path>
+              </svg>
+            </div>
+
+            <h3>تأكد قبل الذهاب</h3>
+
+            <p>
+              تأكد من توفر التدريب والعنوان وموعد الحضور
+              قبل التوجه إلى الصيدلية.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- عن المشروع -->
+    <section class="about section" id="about">
+      <div class="container">
+
+        <div class="about-panel">
+
+          <div class="about-image">
+  <img
+    src="about.png"
+    alt="Amino Cure - دليل التدريب الصيدلي"
+    loading="lazy"
+    width="500"
+    height="400"
+  >
+</div>
+
+          <div class="about-content">
+
+            <span class="section-label">عن Amino Cure</span>
+
+            <h2>دليل يسهّل الوصول إلى معلومات الصيدليات</h2>
+
+            <p>
+              Amino Cure مشروع يهدف إلى مساعدة طلاب وخريجي الصيدلة
+              في السودان على الوصول إلى بيانات الصيدليات التي أبدى
+              أصحابها استعدادًا لاستقبال استفسارات التدريب.
+            </p>
+
+            <p>
+              تُضاف بيانات الصيدليات بعد التواصل مع أصحابها والتحقق
+              من المعلومات المتاحة وقت الإضافة. ومع ذلك، قد تتغير
+              حالة التدريب أو بيانات التواصل لاحقًا.
+            </p>
+
+            <p>
+              الموقع دليل معلوماتي، وليس جهة توظيف أو تدريب،
+              ولا يضمن القبول أو توفر مكان شاغر.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- تنبيه مهم -->
+    <section class="disclaimer section" id="disclaimer">
+      <div class="container">
+
+        <div class="disclaimer-panel">
+
+          <div class="disclaimer-icon" aria-hidden="true">!</div>
+
+          <div>
+            <h2>تنبيه للمتدربين</h2>
+
+            <p>
+              معلومات الدليل تعكس ما توفر وقت التحقق منها، ولا تضمن
+              أن التدريب ما زال متاحًا عند زيارتك. يُرجى التواصل
+              مع الصيدلية مباشرةً والتأكد من توفر التدريب وشروطه
+              ومكانه قبل الذهاب.
+            </p>
+
+            <p>
+              إذا لاحظت أن بيانات صيدلية غير صحيحة أو قديمة،
+              يُرجى التواصل مع إدارة الموقع لطلب المراجعة.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- تذييل الموقع -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+
+      <div class="footer-main">
+
+        <a href="#top" class="brand footer-brand">
+          <img
+            src="logo.png"
+            alt=""
+            class="brand-logo"
+            width="44"
+            height="44"
+          >
+
+          <span class="brand-text">
+            <strong>Amino Cure</strong>
+            <small>دليل التدريب الصيدلي</small>
+          </span>
+        </a>
+
+        <p class="footer-description">
+          نسعى إلى تسهيل الوصول إلى معلومات الصيدليات
+          ومساعدة المتدربين على الاستفسار عن فرص التدريب.
+        </p>
+
+        <nav class="footer-links" aria-label="روابط الموقع">
+          <a href="#home">الرئيسية</a>
+          <a href="#directory">دليل الصيدليات</a>
+          <a href="#how-it-works">كيف يعمل؟</a>
+          <a href="#about">عن المشروع</a>
+          <a href="#disclaimer">التنبيهات</a>
+        </nav>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <p>
+          © <span id="currentYear">2026</span> Amino Cure.
+          جميع الحقوق محفوظة.
+        </p>
+
+        <a href="#top" class="footer-back-to-top">
+          العودة للأعلى ↑
+        </a>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- زر الرجوع لأعلى الصفحة -->
+  <button
+    class="back-to-top"
+    id="backToTop"
+    type="button"
+    aria-label="الرجوع إلى أعلى الصفحة"
+    title="الرجوع للأعلى"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      width="25"
+      height="25"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2.2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M12 19V5"></path>
+      <path d="m5 12 7-7 7 7"></path>
+    </svg>
+  </button>
+
+
+  <!-- ملفات الموقع الأصلية -->
+  <script src="pharmacies.js"></script>
+  <script src="script.js"></script>
+
+</body>
+  </html>
