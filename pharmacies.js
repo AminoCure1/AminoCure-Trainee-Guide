@@ -15,13 +15,13 @@ const pharmacies = [
   {
     id: 1,
 
-    name: "صيدلية تجريبية — للاختبار الأول",
+    name: "صيدلية عفاف — للاختبار الأول",
 
     state: "الخرطوم",
 
     area: "منطقة تجريبية",
 
-    address: "عنوان تجريبي — ليس عنوانًا حقيقيًا",
+    address: "عنوان بحري — ليس عنوانًا حقيقيًا",
 
     phone: "",
 
@@ -44,7 +44,7 @@ const pharmacies = [
   {
     id: 2,
 
-    name: "صيدلية تجريبية — للاختبار الثاني",
+    name: "صيدلية امينو — للاختبار الثاني",
 
     state: "الجزيرة",
 
@@ -68,7 +68,55 @@ const pharmacies = [
     lastVerified: "",
 
     isDemo: true
-  }
+  },
+ {
+  id: 4,
+  name: "صيدلية الشفاء — بيانات وهمية",
+  state: "الجزيرة",
+  area: "حي تجريبي — مدني",
+  address: "شارع افتراضي رقم 10، منطقة غير حقيقية",
+  phone: "",
+  mapsUrl: "",
+  facebookUrl: "",
+  instagramUrl: "",
+  trainingStatus: "demo",
+  description:
+    "مثال تجريبي لاختبار عرض بيانات الصيدلية والبحث حسب الولاية والمنطقة. لا تمثل هذه البيانات صيدلية حقيقية أو فرصة تدريب متاحة.",
+  lastVerified: "",
+  isDemo: true
+},
+{
+  id: 5,
+  name: "صيدلية الأمل — بيانات وهمية",
+  state: "البحر الأحمر",
+  area: "حي تجريبي — بورتسودان",
+  address: "طريق افتراضي رقم 25، عنوان غير حقيقي",
+  phone: "",
+  mapsUrl: "",
+  facebookUrl: "",
+  instagramUrl: "",
+  trainingStatus: "demo",
+  description:
+    "بطاقة وهمية لاختبار البحث باسم الصيدلية والفلترة حسب الولاية. لا تستخدم للتواصل أو الزيارة.",
+  lastVerified: "",
+  isDemo: true
+},
+{
+  id: 6,
+  name: "صيدلية الحياة — بيانات وهمية",
+  state: "كسلا",
+  area: "منطقة تجريبية — كسلا",
+  address: "موقع افتراضي للاختبار فقط، دون عنوان حقيقي",
+  phone: "",
+  mapsUrl: "",
+  facebookUrl: "",
+  instagramUrl: "",
+  trainingStatus: "demo",
+  description:
+    "بيانات تجريبية لاختبار البطاقات وتناسق أحجامها على مختلف الشاشات. لا توجد جهة حقيقية مرتبطة بهذه البيانات.",
+  lastVerified: "",
+  isDemo: true
+}
 
 ];
 
