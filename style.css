@@ -2847,3 +2847,23 @@ html[data-theme="dark"] body {
     box-sizing: border-box;
   }
    }
+/* اللون الأخضر لزر الرجوع للأعلى */
+button#backToTop.back-to-top {
+  background: #16805c !important;
+  background-color: #16805c !important;
+  color: #ffffff !important;
+  border: 2px solid #16805c !important;
+  box-shadow: 0 4px 14px rgba(22, 128, 92, 0.3) !important;
+}
+
+/* عند تمرير المؤشر */
+button#backToTop.back-to-top:hover {
+  background: #116548 !important;
+  background-color: #116548 !important;
+  color: #ffffff !important;
+}
+
+/* لون السهم */
+button#backToTop.back-to-top svg {
+  stroke: #ffffff !important;
+}
