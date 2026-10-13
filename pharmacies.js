@@ -19,17 +19,17 @@ const pharmacies = [
 
     state: "الخرطوم",
 
-    area: "منطقة تجريبية",
+    area: " شرق النيل",
 
-    address: "عنوان بحري — ليس عنوانًا حقيقيًا",
+    address: "كافوري",
 
-    phone: "",
+    phone: "0978735688",
 
     mapsUrl: "",
 
-    facebookUrl: "",
+    facebookUrl: "afafpharmcy",
 
-    instagramUrl: "",
+    instagramUrl: "afafpharmcy",
 
     trainingStatus: "demo",
 
@@ -44,15 +44,15 @@ const pharmacies = [
   {
     id: 2,
 
-    name: "صيدلية امينو — للاختبار الثاني",
+    name: "صيدلية قسم ",
 
     state: "الجزيرة",
 
-    area: "منطقة تجريبية ثانية",
+    area: "مدني",
 
-    address: "عنوان افتراضي — ليس عنوانًا حقيقيًا",
+    address: "سنار",
 
-    phone: "",
+    phone: "6544333333",
 
     mapsUrl: "",
 
