@@ -2836,3 +2836,14 @@ html[data-theme="dark"] body {
     );
   background-attachment: fixed;
   }
+/* توحيد ارتفاع بطاقات الصيدليات على الشاشات الكبيرة */
+@media (min-width: 769px) {
+  .pharmacies-grid {
+    align-items: stretch;
+  }
+
+  .pharmacy-card {
+    height: 100%;
+    box-sizing: border-box;
+  }
+   }
